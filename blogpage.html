@@ -6,24 +6,27 @@
         <title>Blog page</title>
     </head>
     <body>
+      <main>  
         <header>
            <h1>About me</h1>
-           <nav>
+          <ul>
             <li>
                 <a href="index.html">My blog page</a>
             </li> 
-           </nav>
+        </ul>
          </header>
          <br>
          <br>
+       <section>
      <div> 
-        <time datetime="01.01.2022.">01.01.2022.</time>
         <h2>Masa Skrobo</h2>
+        <time datetime="2022-01-01">01.01.2022.</time>
+       
         <figure>
             <img src="img/3.jpg" alt="Picture of me" title="Beautiful me" width="200" height="250"> 
         </figure>
         <p>Lorem ipsum sit amet, <strong>consectetur</strong>  adipiscing elit, sad do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut <em> enim </em> ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-     </div> 
+     
     
        <ol>
           <li>Item one</li>
@@ -46,12 +49,72 @@
         </tr>
 
        </table>
-     
-       
+    </div> 
+      </section>  
+
+       <article id="comment">  
+        <h2>Add a name</h2>  
+    <form>
+        <label for="comment">Comment:</label> 
+        <input type="text" name="comment" id="comment" placeholder="Name">
+    </form>
+       </article>
+
+       <br>
+
+       <article id="enterd-text">
+           <h2>Add a text</h2>
+        <form>
+           <label for="enterd"></label>
+           <textarea name="enterd" id="enterd" cols="15" rows="5" placeholder="Comment"></textarea>
+        </form>
+      </article>
+
+      <article id="list">
+           <label for="list"></label>
+           <select name="list" id="list">
+               
+                   <option value="positive">Positive </option>
+                   <option value="negative">Negative </option>
+                   <option value="neutral">Neutral </option>
+      </article>
+
+     <br>
+      
+          <article id="gender">
+        
+            <input type="radio" name="gender" id="male" value="yes">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="yes">
+            <label for="female">Female</label>
+           </article>
+
+          <article id="choice">
+             <input type="checkbox" name="choice" id="choice" value="sport">
+            <label for="sport">Sport</label>
+            <input type="checkbox" name="choice" id="choice" value="nature" >
+            <label for="nature">Nature</label>
+          </article> 
+
+          <button type="button">Post</button>
+          <div>
+              <h3><strong>John Doe</strong></h3>
+              <time datetime="2022-01-01"></time> 01.01.2022.</time>
+              <p>Lorem ipsum dolar sit amet, cosectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              
+              <h3><strong>John Doe</strong></h3>
+              <time datetime="2022-01-01"></time>01.01.2022.</time>
+              <p>Lorem ipsum dolar sit amet, cosectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              
+              <h3><strong>John Doe</strong></h3>
+              <time datetime="2022-01-01"></time>01.01.2022.</time>
+              <p>Lorem ipsum dolar sit amet, cosectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+          </div>
     
         
 
-
-
+        
+      </main>
     </body>
 </html>
